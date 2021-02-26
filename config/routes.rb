@@ -24,7 +24,6 @@ Rails.application.routes.draw do
   resources :twitter_accounts
   resources :tweets
 
-  # Root
   root to: "main#index"
 
 end

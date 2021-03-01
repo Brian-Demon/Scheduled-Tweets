@@ -1,24 +1,18 @@
-# README
+# Scheduled Tweets
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Created by Chris Oliver for GoRails.
 
-Things you may want to cover:
+Learn Ruby on Rails
+In this tutorial, we cover the basics of web development with Ruby on Rails.
 
-* Ruby version
+Learn Ruby on Rails at GoRails
 
-* System dependencies
+Boot instructions
+Start rails server:
 
-* Configuration
+bundle install
+bundle exec rails s
+Start webpack:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+yarn install
+bin/webpacker-dev-server

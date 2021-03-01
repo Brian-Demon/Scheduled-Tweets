@@ -1,6 +1,7 @@
 # Scheduled Tweets
 
-Created by Chris Oliver for GoRails.
+Created by Brian Matejka following the tutorial created by Chris Oliver for GoRails.
+Originally Created by Chris Oliver for GoRails. More info below:
 
 Learn Ruby on Rails
 In this tutorial, we cover the basics of web development with Ruby on Rails.

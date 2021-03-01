@@ -3,8 +3,9 @@
 <%= form_with url: sign_in_path do |form| %>
   <div class="mb-3">
     <%= form.label :email %>
-    <%= form.text_field :email, class: "form-control", placeholder: "example@email.com" %>
+    <%= form.text_field :email, class: "form-control", placeholder: "steve@apple.com" %>
   </div>
+
   <div class="mb-3">
     <%= form.label :password %>
     <%= form.password_field :password, class: "form-control", placeholder: "password" %>
@@ -13,5 +14,5 @@
 
   <div class="mb-3">
     <%= form.submit "Sign In", class: "btn btn-primary" %>
-  </div>
+  </div
 <% end %>

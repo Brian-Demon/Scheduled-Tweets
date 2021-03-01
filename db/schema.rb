@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2021_02_27_025036) do
     t.integer "twitter_account_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "tweet_id"
     t.index ["twitter_account_id"], name: "index_tweets_on_twitter_account_id"
     t.index ["user_id"], name: "index_tweets_on_user_id"
   end

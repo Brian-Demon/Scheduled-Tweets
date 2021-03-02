@@ -5,7 +5,7 @@
     <%= form.label :twitter_account_id %>
     <%= form.collection_select :twitter_account_id, Current.user.twitter_accounts, :id, :username, {}, { class: "form-control" } %>
     <% if Current.user.twitter_accounts.none? %>
-      <%= link_to "Connect your Twitter Account", "/auth/twitter" %>
+      <%= button_to "Connect your Twitter Account", "/auth/twitter" %>
     <% end %>
   </div>
 
